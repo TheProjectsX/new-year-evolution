@@ -1,0 +1,196 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  --font-primary: "Merriweather", serif;
+  --font-secondary: "Inter", sans-serif;
+  padding-top: 50px;
+  padding-inline: 100px;
+}
+
+/* Common Style */
+header,
+section {
+  margin-bottom: 80px;
+}
+
+/* Header - Banner*/
+header {
+  background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("../assets/Banner\ Image.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 520px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  color: #fff;
+  font-family: "Merriweather", serif;
+  border-radius: 16px;
+}
+
+header p {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 95px;
+  width: 632px;
+}
+
+/* Main Section */
+/* 65% OFF */
+.holiday-deals {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.holiday-deals h3 {
+  color: #f00;
+  font-family: "Inter", sans-serif;
+  font-size: 70px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.holiday-deals p {
+  color: #f00;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.holiday-deals h4 {
+  color: #070211;
+  font-family: "Inter", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.holiday-deals img {
+  width: 700px;
+}
+
+/* Welcome to Midnight Party */
+.welcome-to-party {
+  background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("../assets/Vectorrr.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 520px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 50px;
+}
+
+.greetings {
+  max-width: 600px;
+}
+
+.greetings h3 {
+  color: #fff;
+  font-family: "Merriweather", serif;
+  font-size: 55px;
+  font-weight: 900;
+  line-height: 70px;
+  letter-spacing: 7.04px;
+}
+
+.greetings p {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: "Inter", serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.greetings button {
+  margin-top: 20px;
+  background-color: transparent;
+  outline: none;
+  border: 2px solid #ff0000;
+  padding: 10px 18px;
+  border-radius: 10px;
+  color: #ff0000;
+  font-family: "Inter", serif;
+  font-size: 17px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.greetings button:hover {
+  cursor: pointer;
+}
+
+.greetings button:active {
+  border-color: #fff;
+  color: #fff;
+}
+
+.img-2024 {
+  width: 260px;
+}
+
+/* Place , Date , Time */
+.party-place {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-block: 80px;
+  gap: 16px;
+}
+
+.party-place p {
+  color: #070211;
+  font-family: "Inter", sans-serif;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.party-place span {
+  color: #f00;
+  font-family: "Inter", sans-serif;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.party-place button {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 13px 24px;
+  border-radius: 8px;
+  background: #f00;
+  border: 0;
+  margin-top: 15px;
+}
+
+.party-place button:hover {
+  cursor: pointer;
+}
+
+.party-place button:active {
+  font-size: 14px;
+  padding: 14.5px 32px;
+}
