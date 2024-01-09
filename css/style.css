@@ -3,7 +3,9 @@
   margin: 0;
 }
 
-body {}
+body {
+  font-family: "Inter", sans-serif;
+}
 
 /* Common Style */
 header,
@@ -57,7 +59,6 @@ main {
 
 .holiday-deals h3 {
   color: #f00;
-  font-family: "Inter", sans-serif;
   font-size: 70px;
   font-weight: 700;
   margin-bottom: 30px;
@@ -65,7 +66,6 @@ main {
 
 .holiday-deals p {
   color: #f00;
-  font-family: "Inter", sans-serif;
   font-size: 20px;
   font-weight: 500;
   text-transform: uppercase;
@@ -73,7 +73,6 @@ main {
 
 .holiday-deals h4 {
   color: #070211;
-  font-family: "Inter", sans-serif;
   font-size: 40px;
   font-weight: 700;
   text-transform: uppercase;
@@ -160,21 +159,18 @@ main {
 
 .party-place p {
   color: #070211;
-  font-family: "Inter", sans-serif;
   font-size: 26px;
   font-weight: 600;
 }
 
 .party-place span {
   color: #f00;
-  font-family: "Inter", sans-serif;
   font-size: 26px;
   font-weight: 600;
 }
 
 .party-place button {
   color: #fff;
-  font-family: "Inter", sans-serif;
   font-size: 17px;
   font-weight: 700;
   text-transform: uppercase;
@@ -208,7 +204,6 @@ main {
 
 .best-offer .title {
   color: #f00;
-  font-family: "Inter", sans-serif;
   font-size: 20px;
   font-weight: 500;
   text-transform: uppercase;
@@ -224,7 +219,6 @@ main {
 
 .best-offer .desc {
   color: rgba(7, 2, 17, 0.6);
-  font-family: "Inter", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
@@ -243,14 +237,12 @@ main {
 
 .coming-soon .ending h4 {
   color: #f00;
-  font-family: "Inter", sans-serif;
   font-size: 40px;
   font-weight: 700;
 }
 
 .coming-soon .ending p {
   color: rgba(7, 2, 17, 0.6);
-  font-family: "Inter", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
@@ -265,7 +257,6 @@ main {
 
 .what-is-functional .title {
   color: #070211;
-  font-family: "Inter", sans-serif;
   font-size: 24px;
   font-weight: 500;
   text-transform: uppercase;
@@ -285,7 +276,6 @@ main {
 
 .what-is-functional .desc {
   color: rgba(7, 2, 17, 0.6);
-  font-family: "Inter", sans-serif;
   font-size: 18px;
   font-weight: 500;
   line-height: 32px;
@@ -328,7 +318,6 @@ main {
 /* Page Portfolio */
 .page-portfolio .title {
   color: #f00;
-  font-family: "Inter", sans-serif;
   font-size: 20px;
   font-weight: 500;
   text-transform: uppercase;
@@ -344,7 +333,6 @@ main {
 
 .page-portfolio .desc {
   color: rgba(7, 2, 17, 0.6);
-  font-family: "Inter", sans-serif;
   font-size: 17px;
   line-height: 28px;
   padding-right: 100px;
@@ -393,7 +381,6 @@ main {
 
 .newsletter p {
   color: rgba(7, 2, 17, 0.6);
-  font-family: "Inter", sans-serif;
   font-size: 16px;
   line-height: 28px;
   padding-inline: 150px;
@@ -408,7 +395,6 @@ main {
 button {
   border: 0;
   outline: 0;
-  font-family: "Inter", sans-serif;
 }
 
 .newsletter input {
@@ -443,7 +429,6 @@ footer {
   background-color: #070211;
   padding: 80px 120px;
   color: white;
-  font-family: "Inter", sans-serif;
   font-size: 20px;
 }
 
