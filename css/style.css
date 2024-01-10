@@ -93,8 +93,10 @@ main {
 
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   gap: 50px;
+
+  padding-inline: 100px;
 }
 
 .greetings {
