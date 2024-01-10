@@ -15,7 +15,6 @@ section {
 
 header,
 main {
-  padding-top: 50px;
   padding-inline: 100px;
 }
 
@@ -24,7 +23,7 @@ main {
   background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
     url("../assets/Banner\ Image.png");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   height: 520px;
   display: flex;
   flex-direction: column;
@@ -34,6 +33,7 @@ main {
   color: #fff;
   font-family: "Merriweather", serif;
   border-radius: 16px;
+  margin-top: 50px;
 }
 
 .banner p {
